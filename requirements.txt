@@ -1,8 +1,0 @@
-pandas
-numpy
-scikit-learn
-scipy
-joblib
-xgboost
-autofepg
-
