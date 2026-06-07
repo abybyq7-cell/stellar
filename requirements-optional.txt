@@ -1,4 +1,0 @@
-# Optional model families used by selected scripts/experiment suites.
-autogluon.tabular
-lightgbm
-catboost
