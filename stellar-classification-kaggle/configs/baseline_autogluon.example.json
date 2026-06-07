@@ -1,0 +1,14 @@
+{
+  "script": "scripts/01_baseline_autogluon.py",
+  "data_dir": "data/raw",
+  "output_dir": "outputs/autogluon_baseline",
+  "run_name": "baseline_medium_15m",
+  "eval_metric": "accuracy",
+  "presets": "medium_quality",
+  "time_limit": 900,
+  "valid_size": 0.2,
+  "seed": 42,
+  "sample_rows": 0,
+  "feature_engineering": true
+}
+

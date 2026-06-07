@@ -1,0 +1,16 @@
+{
+  "script": "scripts/03_layer1_oof_experiments.py",
+  "data_dir": "data/raw",
+  "output_dir": "outputs/layer1_oof",
+  "autofe_dir": "outputs/feature_exploration/medium_autofe_groupby",
+  "run_name": "balanced_5fold",
+  "suite": "balanced",
+  "sample_rows": 50000,
+  "n_splits": 5,
+  "sample_seed": 42,
+  "fold_seed": 42,
+  "groupby_top_n": 16,
+  "weighting": "star_lowz_hard",
+  "diagnostic_dir": "outputs/layer1_oof/layer1_50k_balanced",
+  "ensemble_strategies": ["equal", "reduce_cat_star_lgbm"]
+}

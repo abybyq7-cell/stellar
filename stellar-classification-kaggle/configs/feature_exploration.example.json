@@ -1,0 +1,13 @@
+{
+  "script": "scripts/02_feature_exploration.py",
+  "data_dir": "data/raw",
+  "output_dir": "outputs/feature_exploration",
+  "run_name": "medium_autofe_groupby",
+  "seed": 42,
+  "autofe_sample": 30000,
+  "autofe_time_limit": 300,
+  "autofe_folds": 3,
+  "groupby_max_candidates": 1200,
+  "agg_top_keys": 25
+}
+
